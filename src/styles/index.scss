@@ -1,0 +1,40 @@
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../fonts/Montserrat-Regular.ttf');
+}
+
+@import 'variables';
+
+html {
+  color: $font-color-primary;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 62.5%;
+  font-smooth: always;
+  -webkit-font-smoothing: antialiased;
+  background-color: $background-color;
+}
+
+body {
+  height: 100vh;
+  width: $page-width;
+  margin: 0;
+  font-size: 1.6rem;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 3rem;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+h2 {
+  font-size: 1.6rem;
+  text-transform: capitalize;
+  margin: 0;
+}
+
+#app {
+  height: 100vh;
+  width: $page-width;
+}
